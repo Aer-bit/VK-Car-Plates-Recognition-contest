@@ -1,5 +1,4 @@
 ```shell
-pip install -r requirements.txt
 
 python tools/create-segmentation-dataset.py PATH_TO_EXTRACTED_DATA
 python tools/train-segmentation.py -d PATH_TO_EXTRACTED_DATA -o runs/segmentation_baseline
